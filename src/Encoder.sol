@@ -3,6 +3,10 @@ pragma solidity ^0.8.0;
 
 contract Encoder {
 
+    constructor() {
+           // Initialization logic (if any)
+       }
+
     // Function to encode a single uint256
     function encodeUint256(uint256 value) public pure returns (bytes memory) {
         return abi.encode(value);
