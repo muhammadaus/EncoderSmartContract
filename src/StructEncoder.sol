@@ -30,12 +30,4 @@ contract DynamicDataStorage {
         // Store the encoded struct
         setData(key, encodedStruct);
     }
-
-    // Function to decode a stored struct (example implementation)
-    function decodeStruct(bytes memory encodedData) public pure returns (string[] memory, bytes[] memory) {
-        // Implement your decoding logic here
-        // This is a placeholder; actual decoding will depend on how you encode the data
-        // You may need to use a more structured approach to decode the data correctly
-        return (new string[](0), new bytes[](0)); // Placeholder return
-    }
 }
